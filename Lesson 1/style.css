@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 600px;
+    height:400px;
+    background-color: black;
+    opacity: 75%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+input{
+    max-width: 80%;
+    background-color: black;
+    opacity: 75%;
+    
+}
